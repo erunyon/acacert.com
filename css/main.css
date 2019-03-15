@@ -11,4 +11,5 @@ h3 {text-align:center; color:#800000;}
 .nav-bot a {color:#00f;}
 .maroon,
 .maroon a {color:#800000;}
+.notice {margin:2rem 0; padding:1rem; text-align:center; background:#d4edda; border:2px solid #c3e6cb; border-radius:0.5rem;}
 footer {text-align:center;}

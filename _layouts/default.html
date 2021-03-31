@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="Healthcare professionals,training manuals,certification,certifiation examinations">
 <meta name="keywords" content="phlebotomy,ECG,CPT/ICD-9,Patient Care Technician,dynamic,electrocardiography">
 <title>{{ page.title }} | {{ site.name }}</title>
@@ -24,32 +25,33 @@ ga('send', 'pageview');
   <p>American Certification Agency for Healthcare Professionals</p>
 </header>
 
-<nav class="nav nav-top">
-  {% include nav.html %}
-</nav>
-
+<main>
 {% if page.title != 'Home' %}
 <h1 class="page-title">{{ page.title }}</h1>
 {% endif %}
 
 {{ content }}
+</main>
 
-<nav class="nav nav-bot">
-  {% include nav.html %}
-</nav>
+{% include nav.html %}
 
 <footer>
-  <p><strong><i>ACA Certification Pins are Available.</i></strong></p>
-  <p>Pins available for Phlebotomy, ECG and Patient Care Technicians<br> $10.00 (Includes S&amp;H)<br> Order Directly From ACA</p>
+  <div class="footer-notice">
+    <p><strong>ACA Certification Pins are Available.</strong></p>
+    <p>Pins available for Phlebotomy, ECG and Patient Care Technicians<br> $10.00 (Includes S&amp;H)<br> Order Directly From ACA</p>
+  </div>
 
-  <hr>
-
-  <h3 class="maroon">American Certification Agency</h3>
-  <p>PO Box 58<br>Osceola, IN 46561</p>
-  <p>Tel: 574-254-1307<br>Fax: 574-254-1307</p>
-  <p>Contact: Shirley Evans, Testing Specialist<br>or<br>
-  Carole Mullins, Director<br>
-  E-mail <a href="mailto:info@acacert.com">info@acacert.com</a>.</p>
+  <div class="footer-contact">
+    <div class="footer-contact-1">
+      <p><strong>American Certification Agency</strong><br>PO Box 58<br>Osceola, IN 46561</p>
+    </div>
+    <div class="footer-contact-2">
+      <p>Shirley Evans, Testing Specialist<br>
+      Carole Mullins, Director<br>
+      E-mail <a href="mailto:info@acacert.com">info@acacert.com</a></p>
+      <p>Tel: 574-254-1307<br>Fax: 574-254-1307</p>
+    </div>
+  </div>
 </footer>
 <script src="/js/site.js"></script>
 </body>

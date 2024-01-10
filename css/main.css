@@ -9,6 +9,17 @@ h1 {margin:0 0 1em;}
   .site-header p {margin:0 0 1em; font-size:1.2em;}
 .page-title {color:#800; font-size:1.6rem;}
 h3 {color:#800;}
+
+table {width:100%; margin:2em 0; border-collapse:collapse; border-spacing:0; border:1px solid #dadada;}
+tr {border-top:1px solid #dadada;}
+tr:nth-child(even) td { background:#fafafa; }
+th,
+thead th { text-align:left; background-color:#dadada; border-right:1px solid #dadada; font-weight:600; font-size:1em; border-bottom:3px solid #dadada; }
+tfoot th {text-align:right;}
+th, td {padding:0.5em 0.75em;}
+td {border-right:1px solid #dadada; border-left:1px solid #dadada;}
+td, td img {vertical-align:top;}
+
 .center {text-align: center;}
 .nav { margin:0; padding:0;}
 .nav a {display:block; padding:0.5rem 0.5rem 0.3rem; border-radius:5px; color:#333; font-size:1.4rem; line-height:1.5rem; text-decoration:none; border:1px solid transparent; transition:100ms;}
